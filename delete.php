@@ -1,19 +1,29 @@
 <?php
+
 include 'conn.php';
 
-$id = (int) $_GET['id'];
-$type = $_GET['type'];
+// Sanitasi input
+$id   = (int) $_GET['id'];
+$type = $_GET['type'] ?? '';
 
-if($type == "exp"){
-    $conn->query("DELETE FROM experiences WHERE id=$id");
+if ($type === 'exp') {
+    $stmt = $conn->prepare("DELETE FROM experiences WHERE id = ?");
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
 }
 
-if($type == "skill"){
-    $conn->query("DELETE FROM skills WHERE id=$id");
+if ($type === 'skill') {
+    $stmt = $conn->prepare("DELETE FROM skills WHERE id = ?");
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
 }
 
-if($type == "cert"){
-    $conn->query("DELETE FROM certificates WHERE id=$id");
+if ($type === 'cert') {
+    $stmt = $conn->prepare("DELETE FROM certificates WHERE id = ?");
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
 }
 
-header("Location: index.php?admin=1");
+// Balik ke halaman utama setelah hapus
+header("Location: index.php");
+exit;

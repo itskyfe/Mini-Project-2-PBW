@@ -33,7 +33,7 @@ $certs = $conn->query("SELECT * FROM certificates");
   </div>
 </nav>
 
-<!-- 🔥 HERO (BALIK TOTAL, GAK DIUTAK ATIK) -->
+<!-- HERO  -->
 <section class="hero">
   <div class="hero-bg"></div>
 
@@ -41,8 +41,7 @@ $certs = $conn->query("SELECT * FROM certificates");
     <div class="hero-center-wrap">
 
       <div class="hero-name-row">
-        <p class="name-label">MUHAMMAD <span class="accent">RIZKY</span></p>
-        <p class="name-label">FEBRIANTO</p>
+        <p class="name-label">MUHAMMAD <span class="accent">RIZKY</span> FEBRIANTO</p>
       </div>
 
       <div class="hero-middle">
@@ -199,7 +198,7 @@ web development sejak di SMA. Salam kenal semua!
 </div>
 </section>
 
-<!-- 🔥 JS AJAX -->
+<!-- JS AJAX -->
 <script>
 
 // ADD EXP
