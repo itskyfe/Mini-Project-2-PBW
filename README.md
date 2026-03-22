@@ -211,8 +211,8 @@ Elemen langsung dihapus dari DOM setelah server mengkonfirmasi penghapusan dari 
     <th>Mobile</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/b53f948d-c393-4edf-9e3a-14101da16c87" /></td>
-    <td><img src="https://github.com/user-attachments/assets/1e8b82cf-50cd-4bb0-ab77-2fc672e2eb43" /></td>
+    <td><img width="1892" height="872" alt="image" src="https://github.com/user-attachments/assets/dabbd05d-04bd-468b-b9d0-bc9aa6a5d8ce" /></td>
+    <td><img width="349" height="677" alt="image" src="https://github.com/user-attachments/assets/1c16d1c6-d887-4c0c-9517-a797d478cb0c" /></td>
   </tr>
 </table>
 
@@ -224,7 +224,7 @@ Elemen langsung dihapus dari DOM setelah server mengkonfirmasi penghapusan dari 
     <th>Mobile</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/8615f3ec-b517-46a4-8b2a-82cd1232116f" /></td>
-    <td><img src="https://github.com/user-attachments/assets/df19880c-d46d-4663-991f-f578338b079c" /></td>
+    <td><img width="1895" height="884" alt="image" src="https://github.com/user-attachments/assets/ee0be8ef-7f94-402a-b64f-b6a1dc1b96a9" /></td>
+    <td><img width="350" height="676" alt="image" src="https://github.com/user-attachments/assets/5f98b3f8-8c8d-429e-8c3b-89debb2b508a" /></td>
   </tr>
 </table>
