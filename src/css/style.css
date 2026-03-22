@@ -702,5 +702,44 @@ input:focus {
   .exp-content { flex-direction: column; align-items: flex-start; gap: 6px; }
   .exp-year    { margin-left: 0; }
 
-  .certificates { padding: 60px 0; }
+  /* Certificates mobile */
+  .certificates { padding: 40px 0 60px; }
+
+  .cert-title { margin-bottom: 32px; }
+
+  .cert-card { border-radius: 14px; }
+
+  .cert-actions {
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .btn-view {
+    font-size: 0.75rem;
+    padding: 10px 8px;
+  }
+
+  /* Form upload mobile — stack vertikal */
+  #formCert {
+    flex-direction: column !important;
+    align-items: stretch;
+    gap: 10px !important;
+    max-width: 100%;
+  }
+
+  #formCert input[type="file"] {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 0.85rem;
+  }
+
+  #formCert .btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 0.85rem;
+  }
+
+  #formCert .form-modern {
+    width: 100%;
+  }
 }

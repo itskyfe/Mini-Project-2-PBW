@@ -33,7 +33,7 @@ $certs = $conn->query("SELECT * FROM certificates");
   </div>
 </nav>
 
-<!-- HERO  -->
+<!-- 🔥 HERO (BALIK TOTAL, GAK DIUTAK ATIK) -->
 <section class="hero">
   <div class="hero-bg"></div>
 
@@ -158,7 +158,7 @@ web development sejak di SMA. Salam kenal semua!
 <h2 class="cert-title-main">Certi<span class="accent">ficates</span></h2>
 </div>
 
-<div class="row g-4 mt-3" id="certList">
+<div class="row g-1 mt-3" id="certList">
 
 <?php while($c = $certs->fetch_assoc()) { ?>
 <div class="col-lg-4 col-md-6">
@@ -198,7 +198,7 @@ web development sejak di SMA. Salam kenal semua!
 </div>
 </section>
 
-<!-- JS AJAX -->
+<!-- 🔥 JS AJAX -->
 <script>
 
 // ADD EXP
